@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>upupサンプル</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <h1>サンプルサイト</h1>
+  <p>これは「upup」のサンプルデモです…</p>
+
+  <script src="upup.min.js"></script>
+  <script>
+    //オフライン対応をON
+    UpUp.start({
+    
+      'content-url': 'offline.html', //オフライン用のHTML読み込み
+      'assets': ['offline.css']      //オフラインで利用するファイルの読み込み
+      
+    });
+  </script>
+
+</body>
+</html>
